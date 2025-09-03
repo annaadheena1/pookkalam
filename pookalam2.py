@@ -4,7 +4,7 @@ screen.title("Turtle graphics example")
 pen=turtle.Turtle()
 pen.width(4)
 pen.speed(0)
-posi=pen.pos()
+
 turtle.colormode(255)
 
 def circ(r,x1,x2,x3):
@@ -90,5 +90,6 @@ petal3(200)
 petal4(200)
 smallflower()
 end()
+
 
 
